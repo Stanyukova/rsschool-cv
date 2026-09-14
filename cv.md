@@ -1,8 +1,8 @@
-# Maria Stanyukova
+# Mariia Staniukova
 
 **Frontend Developer**
 
-![Maria Stanyukova](https://habrastorage.org/getpro/moikrug/uploads/user/100/064/538/8/avatar/medium_f14176c3c38198f5d42a9ecb403b8553.jpg)
+![Mariia Staniukova](https://habrastorage.org/getpro/moikrug/uploads/user/100/064/538/8/avatar/medium_f14176c3c38198f5d42a9ecb403b8553.jpg)
 
 ## Contact Information
 
