@@ -70,7 +70,7 @@ function isIsogram(str) {
 - Maintain and improve existing projects.
 - Refactor code, optimize implementations, and fix bugs.
 
-### CDS LLC (ООО «СИДИЭС») — Senior Frontend Developer
+### CDS (ООО «СИДИЭС») — Frontend Developer
 
 **August 2023 – July 2025**
 
