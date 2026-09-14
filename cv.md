@@ -101,40 +101,6 @@ function isIsogram(str) {
 - Created and used test plans, test cases, and checklists.
 - Documented defects and prepared bug reports.
 
-## Personal Projects
-
-### Weather Forecast App
-
-A weather application built with JavaScript.
-
-**Technologies:** JavaScript, CSS, HTML.
-
-[Source code](https://github.com/Stanyukova/weather_forecast)
-
-### Responsive Landing Page
-
-A landing page with a responsive layout.
-
-**Technologies:** Bootstrap, CSS, Sass, JavaScript, HTML.
-
-[Source code](https://github.com/Stanyukova/Stanyukova.github.io)
-
-### Exchange Rates App
-
-A React application for displaying exchange rates.
-
-**Technologies:** React, JavaScript, CSS, HTML.
-
-[Source code](https://github.com/Stanyukova/react_exchange_rates)
-
-### Pizza App
-
-A training project built with React and Axios.
-
-**Technologies:** React, Axios, JavaScript, CSS, HTML.
-
-[Source code](https://github.com/Stanyukova/react_pizza)
-
 ## Education
 
 ### Kazan State Academy of Veterinary Medicine named after N. E. Bauman
