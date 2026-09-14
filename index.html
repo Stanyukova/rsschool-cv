@@ -9,7 +9,143 @@
 </head>
 
 <body>
-    <h1>Mariia Staniukova</h1>
+    <div class="container">
+        <header>
+            <div class="profile">
+                <img class="avatar" src="/assets/avatar.jpg" alt="Mariia Staniukova" width="120" height="120">
+                <div>
+                    <h1>Mariia Staniukova</h1>
+                    <p>Frontend Developer</p>
+                </div>
+            </div>
+            <nav aria-label="CV sections">
+                <ul>
+                    <li><a href="#contacts">Contacts</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#code">Code Example</a></li>
+                    <li><a href="#experience">Work Experience</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#english">English</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section id="contacts">
+                <h2>Contact Information</h2>
+                <ul>
+                    <li><strong>GitHub:</strong> <a href="https://github.com/Stanyukova">Stanyukova</a></li>
+                    <li><strong>Telegram:</strong> <a href="https://t.me/stanyukova">@stanyukova</a></li>
+                    <li><strong>Discord:</strong> <a href="https://discord.com/users/906219387571302481">My Discord
+                            profile</a></li>
+                </ul>
+            </section>
+
+            <section id="about">
+                <h2>About Me</h2>
+                <p>I am a frontend developer with commercial experience in building responsive websites, web
+                    applications, and user dashboards.</p>
+                <p>I work with Vue 3, JavaScript, TypeScript, and CMS templates. My experience includes developing
+                    interfaces from scratch, maintaining existing projects, refactoring legacy code, and fixing bugs.
+                </p>
+                <p>Alongside development, I have helped onboard new colleagues, reviewed their work, and participated in
+                    candidate interviews. My manual testing experience helps me consider different user scenarios and
+                    pay attention to implementation details.</p>
+                <p>I am proactive, communicative, and eager to learn. My goal is to deepen my frontend expertise and
+                    build maintainable, user-friendly applications.</p>
+            </section>
+
+            <section id="skills">
+                <h2>Skills</h2>
+                <ul>
+                    <li><strong>Languages:</strong> JavaScript, TypeScript, HTML, CSS, PHP for CMS templates</li>
+                    <li><strong>Frontend:</strong> Vue 3, Pinia</li>
+                    <li><strong>Styling:</strong> SCSS/Sass, Tailwind CSS, Bootstrap</li>
+                    <li><strong>Templating:</strong> Twig</li>
+                    <li><strong>CMS:</strong> 1C-Bitrix, October CMS, WordPress</li>
+                    <li><strong>Version control:</strong> Git, GitHub</li>
+                    <li><strong>Analytics:</strong> Yandex.Metrica</li>
+                    <li><strong>Development practices:</strong> responsive layouts, semantic HTML, component-based
+                        development, refactoring, legacy code maintenance</li>
+                    <li><strong>Testing:</strong> manual web testing, API testing, test documentation, bug reporting
+                    </li>
+                    <li><strong>Training project experience:</strong> React, Axios</li>
+                </ul>
+            </section>
+
+            <section id="code">
+                <h2>Code Example</h2>
+                <h3 id="isogram">Isogram Check</h3>
+                <p>The function checks whether a word contains repeated letters, ignoring case.</p>
+                <pre tabindex="0" role="region" aria-labelledby="isogram"><code>function isIsogram(str) {
+  return new Set(str.toUpperCase()).size === str.length;
+}</code></pre>
+                <p><a href="https://www.codewars.com/users/Stanyukova">My Codewars profile</a></p>
+            </section>
+
+            <section id="experience">
+                <h2>Work Experience</h2>
+                <h3>Ameton — Frontend Developer</h3>
+                <p><strong>November 2025 – Present</strong></p>
+                <ul>
+                    <li>Develop responsive, semantic layouts for different devices using HTML, CSS, JavaScript, and PHP.
+                    </li>
+                    <li>Maintain and improve existing projects.</li>
+                    <li>Refactor code, optimize implementations, and fix bugs.</li>
+                </ul>
+
+                <h3>CDS (ООО «СИДИЭС») — Frontend Developer</h3>
+                <p><strong>August 2023 – July 2025</strong></p>
+                <ul>
+                    <li>Developed websites and user dashboards using Vue 3, Pinia, JavaScript, TypeScript, SCSS, and
+                        Tailwind CSS.</li>
+                    <li>Built interfaces for 1C-Bitrix, October CMS, and WordPress websites using HTML, PHP, JavaScript,
+                        SCSS, and Twig.</li>
+                    <li>Used a component-based approach to interface development.</li>
+                    <li>Contributed to separating frontend and backend responsibilities in 1C-Bitrix projects.</li>
+                    <li>Maintained and extended legacy websites.</li>
+                    <li>Worked with Yandex.Metrica analytics tools.</li>
+                    <li>Helped onboard new employees and reviewed their work.</li>
+                    <li>Participated in candidate selection and interviews for frontend developer and project manager
+                        positions.</li>
+                    <li>Collaborated with developers, a QA engineer, a designer, and project managers on client projects
+                        with tight deadlines.</li>
+                </ul>
+                <p><a href="https://disk.yandex.ru/i/n7dFADumSksqTg">Recommendation letter</a></p>
+
+                <h3>Bank CenterCredit — Manual QA Intern</h3>
+                <p><strong>August 2023 – November 2023</strong><br>Almaty, Kazakhstan</p>
+                <ul>
+                    <li>Performed manual testing of web applications.</li>
+                    <li>Tested APIs.</li>
+                    <li>Created and used test plans, test cases, and checklists.</li>
+                    <li>Documented defects and prepared bug reports.</li>
+                </ul>
+            </section>
+
+            <section id="education">
+                <h2>Education</h2>
+                <h3>Kazan State Academy of Veterinary Medicine named after N. E. Bauman</h3>
+                <p>2014 – 2019</p>
+                <h3>Udemy — Web Development Course</h3>
+                <p>2022</p>
+            </section>
+
+            <section id="english">
+                <h2>English</h2>
+                <p><strong>B1 — Intermediate</strong></p>
+            </section>
+        </main>
+
+        <footer>
+            <a href="https://github.com/Stanyukova">GitHub</a>
+            <span>2026</span>
+            <a href="https://rs.school/courses/javascript">
+                <img class="course-logo" src="/assets/rs-school-logo.svg" alt="RS School JavaScript course" width="100">
+            </a>
+        </footer>
+    </div>
 </body>
 
 </html>
